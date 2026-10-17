@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #121212;
+    color: #EFEFE8;
+}
+h1{
+    margin-top: 10%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 5%;
+}
+.od{
+    text-align: center;
+}
+
+div{
+    margin-top: 5%;
+    display:flex;
+    height: 50vh;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5%
+    
+}
+.mez, .kob{
+    border: 3px solid green;
+    background-color: #1A2219;
+    height: 80%;
+    border-radius: 15%;
+    font-size: 400%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #EFEFE8;
+}
+
+.mez-1, .kob-1{
+    margin-top:5%;
+    border: 3px solid green;
+    background-color: #1A2219;
+    height: 20%;
+    border-radius: 25%;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #EFEFE8;
+}
+button:hover{
+    background-color: #2F362F;
+}
