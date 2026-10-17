@@ -7,13 +7,13 @@ const kob1 = document.querySelector(".kob-1");
 let mezczyzni = 0;
 let kobiety = 0;
 
-mez.addEventListener("click", ()=>{
+mez.addEventListener("touchstart", ()=>{
     mezczyzni +=1;
     mez.innerHTML = mezczyzni;
 })
 
 
-kob.addEventListener("click", ()=>{
+kob.addEventListener("touchstart", ()=>{
     kobiety +=1;
     kob.innerHTML = kobiety;
 })
